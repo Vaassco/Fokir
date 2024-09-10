@@ -1,0 +1,592 @@
+html{
+    scroll-behavior: smooth
+    
+}
+
+body{
+    margin: 0;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    padding-top: 15px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 200px;
+}
+.logo a{
+    color: rgb(255, 48, 91);
+}
+.nav{
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    font-weight: 300;
+    padding-right: 200px;
+    justify-content: space-between;
+}
+.nav a{
+    padding-left: 15px;
+    transition-duration: 0.5s;
+}
+.nav a:hover{
+    color: rgb(255, 48, 91);
+
+}
+a.home{
+    color: rgb(255, 48, 91);
+}
+
+.back{
+    background-image: url(../images/hero\ img.jpg);
+    position: relative;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+.backTwo{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.cent{
+    position: absolute;
+    top: 250px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+}
+.cent h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.cent h1{
+    color: rgb(255, 48, 91);
+    font-size: 70px;
+    font-weight: 700;
+}
+.cent h3{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.sam{
+    width: 25%;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.border{
+    background-color: transparent;
+    border: solid 10px #555555;
+    border-radius: 10px;
+}
+.shadow{
+    background-color: rgba(0, 0, 0,0.5);
+    display: inline-block;
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.5s ;
+}
+.shadow i{
+    padding-top: 220px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+}
+.shadow i:hover{
+    color: rgb(255, 48, 91);
+}
+.sam:hover .shadow{
+    transform: translateY(0);
+}
+.sam img{
+    width: 100%;
+    border-radius: 10px;
+}
+.ihello{
+    margin-top: 100px;
+    width: 40%;
+    display: inline-block;
+    float: right;
+    padding-right: 150px;
+    font-family: "Roboto", sans-serif;
+}
+.ihello h2{
+    margin-top: 0px;
+    font-size: 34px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+.ihello h2 span{
+    color: rgb(255, 48, 91);
+}
+.ihello p{
+    color: rgb(85, 85, 85);
+    font-weight: 400;
+    line-height: 25px;
+}
+.ihello ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.ihello hr{
+    border: 0.2px dashed rgba(85, 85, 85,0.3);
+}
+.listOne{
+    display: inline-block;
+    line-height: 35px;
+    color: rgb(85, 85, 85);
+
+}
+.listTwo{
+    display: inline-block;
+    float: right;
+    padding-right: 150px;
+    margin-right: 20px;
+    line-height: 35px;
+    color: rgb(85, 85, 85);
+}
+.ihello span{
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+.buttons .buttonOne{
+    display:inline-block;
+    background-color:rgb(255, 48, 91);
+    width: 167px;
+    height: 45px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.buttons .buttonTwo{
+    display: inline-block;
+    background-color: rgb(255, 48, 91);
+    width: 128px;
+    height: 45px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.buttons button a{
+    color: white;
+}
+.buttons button{
+    transition-duration: 0.5s;
+}
+.buttons button:hover{
+    background-color: red;
+}
+.services{
+    background-color:rgb(241, 241, 241);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.services p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+}
+.services p.our{
+    padding-top: 100px;
+    font-size: 40px;
+    color: rgb(51, 51, 51 );
+    font-size: 40px;
+    font-weight: 800;
+}
+.titles .a {
+    border: 1px rgb(255, 48, 91) solid;
+    width: 15%;
+    position: relative;
+    left: 42%;
+    top: -15px;
+}
+.titles .b {
+    border: 1px rgb(255, 48, 91) solid;
+    width: 5%;
+    position: relative;
+    left: 47%;
+    top: -22px;
+}
+.titles .c {
+    border: 1px rgb(255, 48, 91) solid;
+    width: 5%;
+    position: relative;
+    left: 47%;
+    top: -12px;
+}
+.services h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+.ui,.app,.product,.ux{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 20px 0px;
+    transition-duration: 0.5s;
+}
+.ui:hover,.app:hover,.product:hover,.ux:hover{
+    background-color: white;
+    box-shadow: 10px 5px 5px #aaaaaa;
+}
+.fours{
+    margin-top: 50px;
+}
+.services i{
+    color: rgb(255, 48, 91);
+    font-size: 30px;
+}
+.portfolio p.our {
+    padding-top: 50px;
+    font-size: 40px;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    font-weight: 800;
+}
+.portfolio {
+    background-color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.web{
+    margin: 30px 0px ;
+}
+.portfolio a{
+    color: rgb(85, 85, 85);
+    padding-left: 40px;
+}
+#all{
+    color: rgb(255, 48, 91);
+}
+.pro img{
+    width: 25%;
+    box-sizing: border-box;
+    border: 15px solid;
+    border-color: white;
+    transition: all 0.5s ease-in-out;
+}
+.pics{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.pics img:hover{
+    filter: brightness(70%);
+}
+.files{
+    background-color: rgb(241, 241, 241);
+}
+.files i{
+    color: #ff305b;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+.team{
+    margin: 100px 20px 100px 20px;
+    width: 15%;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+}
+.team span{
+    color: rgb(51, 51, 51);
+    font-size: 26px;
+    font-weight: 800;
+}
+.team p{
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.card p.our {
+    padding-top: 50px;
+    font-size: 40px;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.carrd{
+    background-color: #f1f1f1;
+    width: 750px;
+    border-radius: 5px;
+    padding: 50px 50px;
+    margin-bottom: 100px ;
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(134deg, #ff305b 25%, #f1f1f1 25%);
+}
+.carrd #location{
+    color: rgb(85, 85, 85);
+}
+.carrd i{
+    color: gold;
+}
+.carrd p{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 25px;
+    color: rgb(85, 85, 85);
+}
+.carrd .ander {
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(51, 51, 51);
+}
+.carrd img{
+    border-radius: 50%;
+    width: 15%;
+    display:inline-block;
+    margin: 0px 10px 50px 0px;
+}
+.carrd a{
+    color: rgb(85, 85, 85);
+}
+.pp{
+    width: 80%;
+    display: inline-block;
+}
+.blog{
+    background-color: rgb(241, 241, 241);
+}
+.blog p.our {
+    padding-top: 50px;
+    font-size: 40px;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.blog a{
+    color: rgb(51, 51, 51);
+    transition-duration: 0.5s;
+}
+.blog a:hover{
+    color: #ff305b;
+}
+
+.pl{
+    background-color:white;
+    width: 25%;
+    display: inline-block;
+    margin: 50px 15px;
+}
+.father{
+    text-align: center;
+}
+
+.pl img{
+    width: 100%;
+}
+.pl p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+}
+.lef{
+    text-align: left;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+}
+.mm{
+    font-size: 24px;
+    font-weight: 600;
+}
+.contact p.our {
+    padding-top: 25px;
+    font-size: 40px;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+.carrd img{
+    transition: animation 0.5s;
+}
+.carrd img:hover{
+    animation: shake 1s;
+}
+
+.last{
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    padding: 50px 50px 50px 50px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.inputs{
+    width: 50%;
+    margin-left: 400px;
+}
+
+.name{
+    width: 48%;
+    padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+.email{
+    width: 48%;
+    padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-left: 20px;
+}
+.subject{
+    width: 100%;
+    padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+.textr{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: rgba(85, 85, 85, 0.8);;
+}
+.buttonThree{
+    margin: 50px 0px 100px;
+    display: inline-block;
+    background-color: rgb(255, 48, 91);
+    width: 140px;
+    height: 35px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.inputs .buttonThree {
+    transition-duration: 0.5s;
+}
+.inputs .buttonThree:hover {
+    background-color: red;
+}
+.last a{
+    color: rgb(255, 48, 91);
+}
+.last i{
+    font-size: 15px;
+    padding-left: 20px;
+    transition-duration: 0.5s;
+    color: white;
+}
+.last i:hover{
+    color: rgb(255, 48, 91);
+}
+.last a:hover{
+    text-decoration: underline;
+}
+.teet{
+    width: 400px;
+    height: 150px;
+    background-color: #ccc;
+}
